@@ -1,5 +1,7 @@
 # Haldane 模型的拓扑光子学仿真
 
+> **Abstract.** A from-scratch implementation of the Haldane model as a topological-photonics portfolio project. It computes band structures and Fukui–Hatsugai–Suzuki Chern numbers, resolves chiral edge states on a zigzag ribbon, and quantifies backscattering immunity: a topological edge wave packet transmits **99.84%** past a strong onsite barrier (reflection 0.008%), while a plain 1D waveguide reflects **99.2%** of the same packet, and the protection survives random onsite disorder up to the bulk-gap scale. The electronic tight-binding model is reinterpreted as coupled optical microcavities; every figure is rebuilt with `python reproduce.py`.
+
 先用电子 Haldane 模型验证能带、陈数和体边对应，再把同一套计算映射到耦合微腔，展示光子能带与手性边缘通道。
 
 ## 物理背景
